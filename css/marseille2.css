@@ -1,0 +1,169 @@
+
+
+/* header*/
+
+body{
+    margin: 0;   
+    
+}
+
+header.accueil{
+    background: linear-gradient(cyan, rgb(122, 176, 207));
+    height: 115px;
+}    
+
+nav.accueil{
+    display: flex;
+    justify-content: center;    
+}
+
+img#logo{
+    position: relative;
+    bottom: 80px;
+    height: 110px;
+}
+
+li#menu{
+    width: 110px;
+}
+
+li {
+    list-style:none !important;
+    color:rgb(87, 193, 219);
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+
+    nav ul {
+    background-color:rgb(122, 176, 207);
+    padding:0px;
+    margin:0;
+    }
+
+    nav ul li {
+    list-style: none;
+    line-height:60px;
+    float:left;
+    background-color:#78b0f5;
+    }
+
+    nav ul li a {
+    color:rgb(245, 249, 250);
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+
+    li a:hover {
+    border-bottom:3px rgb(83, 209, 199) solid;
+    }
+
+    nav ul li ul { 
+    display:none; 
+    } 
+
+    nav ul li:hover ul {
+    z-index:99999999999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+
+    nav ul li:hover ul li {
+    float:none;
+    }
+
+
+
+
+/* MAin*/
+main{
+    background-image: url('https://s1.1zoom.me/big0/390/France_Houses_Marinas_458044.jpg');
+    background-size: cover;
+    height:100vh;
+    padding-top: 1px;        
+}
+
+div.blocform div{   
+    height: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+input{
+    height: 30px;
+    border-radius: 50px;
+    border-color: aqua;
+    
+}
+
+textarea{
+    height: 30px;
+    border-radius: 50px;
+    border-color: aqua;
+}
+
+button{
+    height: 30px;
+    border-radius: 50px;
+    border-color: aqua;
+    position: relative;
+    left: 100px;
+}
+
+
+div.blocform  {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 150px;
+    padding: 30px;
+    width: 500px;
+    margin-left: 670px;
+    opacity: 0.9;
+    
+    animation:apparition 0.8s ease-out;   
+}
+
+
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-100px)
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+div.titrecon{
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+
+
+/* footer */
+    
+footer{
+    height: 12vh;
+    background: linear-gradient(cyan, rgb(122, 176, 207)) ;          
+    
+}
+
+
+div.réso img{
+    height:50px;
+}
+
+img#logobdp{
+    height: 50px;
+    position: relative;
+    left: 890px;
+    bottom: 23px;
+    opacity: 0.3;
+}    

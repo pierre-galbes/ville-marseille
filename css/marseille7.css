@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body.accueil{
+    margin: 0;   
+    
+}
+
+header.accueil{
+    background: linear-gradient(cyan, rgb(122, 176, 207));
+    height: 115px;
+}    
+
+nav.accueil{
+    display: flex;
+    justify-content: center;    
+}
+
+img#logo{
+    position: relative;
+    bottom: 80px;
+    height: 110px;
+}
+
+li#menu{
+    width: 110px;
+}
+
+li {
+    list-style:none !important;
+    color:rgb(87, 193, 219);
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+
+    nav ul {
+    background-color:rgb(122, 176, 207);
+    padding:0px;
+    margin:0;
+    }
+
+    nav ul li {
+    list-style: none;
+    line-height:60px;
+    float:left;
+    background-color:#78b0f5;
+    }
+
+    nav ul li a {
+    color:rgb(245, 249, 250);
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+
+    li a:hover {
+    border-bottom:3px rgb(83, 209, 199) solid;
+    }
+
+    nav ul li ul { 
+    display:none; 
+    } 
+
+    nav ul li:hover ul {
+    z-index:99999999999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+
+    nav ul li:hover ul li {
+    float:none;
+    }
+
+h1{
+    text-align: center;
+}
+
+main{
+    
+    background-color:aquamarine;
+    background-size: cover;
+    padding-top: 1px;
+    
+}
+
+h1{
+    font-size: 60px;
+    color:rgb(101, 152, 247);
+    font-family: 'Lobster', cursive;
+    text-shadow: 0.06em 0.06em black;
+
+}
+
+.parc{
+    
+    background-image: url(https://www.aixenprovencetourism.com/wp-content/uploads/2013/12/Parc-Rambot-credit-P.-Biolatto-ville-dAix-en-Pce-5-1920x1080.jpg);
+    border-style:ridge;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border-color: khaki;
+    background-size: cover;
+    
+}
+
+.nomdeparc{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color:rgb(238, 174, 11);
+    text-shadow: 0.08em 0.08em black;
+
+    
+}
+
+.nomdeparc2{
+    margin-right: 5%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    color:rgb(238, 174, 11);
+    text-shadow: 0.08em 0.08em black;
+}
+
+.image-texte{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.image{
+    width:fit-content ;
+    height: fit-content;
+    border-style:solid;
+    border-radius: 3px;
+    border-color: black;
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    
+}
+
+
+.image:hover{
+    transform: scale(1.1) rotate(3deg);
+}
+
+.texte{
+    margin-left:3% ;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(101, 152, 247);
+    text-shadow: 0.07em 0.07em black;
+    margin-right: 2%;
+}
+
+
+footer{
+    height: 12vh;
+    background: linear-gradient(cyan, rgb(122, 176, 207)) ;          
+    
+}
+
+
+div.réso img{
+    height:50px;
+}
+
+img#logobdp{
+    height: 50px;
+    position: relative;
+    left: 890px;
+    bottom: 23px;
+    opacity: 0.3;
+}    
+
+/* footer */
+    
+footer{
+    height: 12vh;
+    background: linear-gradient(cyan, rgb(122, 176, 207)) ;          
+    
+}
+
+
+div.réso img{
+    height:50px;
+}
+
+img#logobdp{
+    height: 50px;
+    position: relative;
+    left: 890px;
+    bottom: 23px;
+    opacity: 0.3;
+}    
